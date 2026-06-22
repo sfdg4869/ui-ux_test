@@ -1,0 +1,26 @@
+{
+  "_comment": "Non-secret write-scope rules. Actual credentials stay in .env.",
+  "writeSafety": {
+    "requiresDisposableAccount": true,
+    "cleanupRequired": true,
+    "allowedActions": [
+      "create",
+      "cancel",
+      "activate",
+      "deactivate"
+    ],
+    "forbiddenActions": [
+      "password-change-on-real-account",
+      "delete-shared-production-data"
+    ]
+  },
+  "disposableDataScope": {
+    "namePrefix": "AUTO_",
+    "serviceNames": [
+      "MaxGauge"
+    ],
+    "toolNames": [],
+    "datasetNames": [],
+    "notes": "MaxGauge may be edited, activated, and deactivated by the AI service mutation suite. The suite must restore the service to inactive at the end."
+  }
+}

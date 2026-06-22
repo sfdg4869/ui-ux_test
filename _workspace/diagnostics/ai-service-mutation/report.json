@@ -1,0 +1,2632 @@
+{
+  "baseURL": "https://10.10.34.114",
+  "targetService": "MaxGauge",
+  "steps": [
+    {
+      "name": "01_login",
+      "url": "https://10.10.34.114/login",
+      "summary": "Before login submit",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\01_login.png",
+      "headings": [
+        "eXemble for expert"
+      ],
+      "controls": [
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "checkbox",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "로그인",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "SSO로 로그인",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "아이디를 입력하세요",
+          "value": "admin@ex-em.com"
+        },
+        {
+          "name": "",
+          "placeholder": "비밀번호를 입력하세요",
+          "value": "password12#"
+        }
+      ]
+    },
+    {
+      "name": "02_after_login",
+      "url": "https://10.10.34.114/chat/new",
+      "summary": "After login submit",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\02_after_login.png",
+      "headings": [
+        "사규 질의응답",
+        "GS인증"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/chat/new"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "새 채팅Ctrl+Shift+O",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/chat/new"
+        },
+        {
+          "role": "a",
+          "text": "AI서비스Ctrl+Shift+F",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/chat/all-services"
+        },
+        {
+          "role": "button",
+          "text": "검색Ctrl+K",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "사규 질의응답",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요 입사 시 제공되는 혜택에는 무엇이 있나요",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "출장가면 돈 얼마줘?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "사규봇",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "결혼시 지급 비용",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "부모님 환갑때 돈을 얼마 받을 수 있나요 ?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "출장비 얼마줌?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "국내외 출장비 비교",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "국내외 출장비 비교",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "몇시까지 야근해야 평일에 저녁 식대 쓸 수 있어?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "나주 출장시 하루에 호텔 얼마짜리까지 쓸 수 있어 ?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "출장비 지급 기준",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "GS인증",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "12",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "GS 인증이 뭐니",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdfgh qwerty 자동화용 정의되지 않은 질문입니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "사규에 대해 정리해주세요(자동화 테스트)",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "응답 복사 기능 검증용 메시지입니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "응답 복사 기능 검증용 메시지입니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "응답 복사 기능 검증용 메시지입니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "응답 복사 기능 검증용 메시지입니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "자동화 스모크 테스트입니다. 짧게 응답해 주세요.",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "헬스 체크",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "대한민국 대통령의 이름은",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "대한민국의 수도는",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "엑셈블 사용 방법 알려줘",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요 당신은 뭐죠?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕 만나서 반가워",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "지금 시간은 몇시야",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "intermax란 무엇인가요?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "사용자 오류 발생 시 오류메시지를 통한 오류 방지 기능을 제공 한다는데",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "당신은 무엇을 할 수 있죠?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "1+1은",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "PHP란 무엇입니까",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "현재 시간",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdsad",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdasdsa",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdasdsa",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdasdsa",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "asdasdsa",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "안녕하세요",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "무엇을 할 수 있나요?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "지금 몇 시인가요?",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "Aadminadmin@ex-em.com",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "모든 서비스 보기",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "사규 질의응답엑셈 사규가 궁금하면 물어볼 수 있습니다.",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/chat/new/4"
+        },
+        {
+          "role": "a",
+          "text": "GS인증GS인증에 대한 내용입니다.1",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/chat/new/6"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "eXemble에게 물어보세요",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "03_ai_service_list",
+      "url": "https://10.10.34.114/ai-service",
+      "summary": "AI service list landing",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\03_ai_service_list.png",
+      "headings": [
+        "AI서비스",
+        "서비스 목록",
+        "사규 질의응답",
+        "GS인증",
+        "모델 테스트",
+        "eXemble 매뉴얼",
+        "MaxGauge"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "대시보드",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "AI서비스",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "데이터",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "모델",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/model"
+        },
+        {
+          "role": "a",
+          "text": "도구",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/tool"
+        },
+        {
+          "role": "a",
+          "text": "로그",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/log"
+        },
+        {
+          "role": "button",
+          "text": "권한",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/new"
+        },
+        {
+          "role": "button",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "combobox",
+          "text": "전체",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "활성사규 질의응답사규",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/4"
+        },
+        {
+          "role": "a",
+          "text": "활성GS인증GS인증",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/6"
+        },
+        {
+          "role": "a",
+          "text": "비활성모델 테스트모델 테스트",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/9"
+        },
+        {
+          "role": "a",
+          "text": "비활성eXemble 매뉴얼 eXemble 매뉴얼 요약",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/5"
+        },
+        {
+          "role": "a",
+          "text": "비활성MaxGauge알려줘",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/3"
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        },
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        }
+      ],
+      "mainTexts": [
+        "Ctrl+K A",
+        "Ctrl+K",
+        "A",
+        "AI서비스 사용자가 사용할 AI서비스를 관리합니다. 서비스 생성 서비스 목록 전체 활성 사규 질의응답 사규 활성 GS인증 GS인증 비활성 모델 테스트 모델 테스트 비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약 비활성 MaxGauge 알려줘",
+        "AI서비스 사용자가 사용할 AI서비스를 관리합니다. 서비스 생성",
+        "AI서비스 사용자가 사용할 AI서비스를 관리합니다.",
+        "AI서비스",
+        "사용자가 사용할 AI서비스를 관리합니다.",
+        "서비스 생성",
+        "서비스 목록 전체 활성 사규 질의응답 사규 활성 GS인증 GS인증 비활성 모델 테스트 모델 테스트 비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약 비활성 MaxGauge 알려줘",
+        "서비스 목록 전체",
+        "서비스 목록",
+        "전체",
+        "활성 사규 질의응답 사규 활성 GS인증 GS인증 비활성 모델 테스트 모델 테스트 비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약 비활성 MaxGauge 알려줘",
+        "활성 사규 질의응답 사규",
+        "활성",
+        "사규 질의응답",
+        "사규",
+        "활성 GS인증 GS인증",
+        "GS인증",
+        "비활성 모델 테스트 모델 테스트",
+        "비활성",
+        "모델 테스트",
+        "비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약",
+        "eXemble 매뉴얼",
+        "eXemble 매뉴얼 요약",
+        "비활성 MaxGauge 알려줘",
+        "MaxGauge",
+        "알려줘"
+      ]
+    },
+    {
+      "name": "04_maxgauge_row",
+      "url": "https://10.10.34.114/ai-service",
+      "summary": "MaxGauge row/card located",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\04_maxgauge_row.png",
+      "headings": [
+        "AI서비스",
+        "서비스 목록",
+        "사규 질의응답",
+        "GS인증",
+        "모델 테스트",
+        "eXemble 매뉴얼",
+        "MaxGauge"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "대시보드",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "AI서비스",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "데이터",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "모델",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/model"
+        },
+        {
+          "role": "a",
+          "text": "도구",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/tool"
+        },
+        {
+          "role": "a",
+          "text": "로그",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/log"
+        },
+        {
+          "role": "button",
+          "text": "권한",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/new"
+        },
+        {
+          "role": "button",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "combobox",
+          "text": "전체",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "활성사규 질의응답사규",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/4"
+        },
+        {
+          "role": "a",
+          "text": "활성GS인증GS인증",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/6"
+        },
+        {
+          "role": "a",
+          "text": "비활성모델 테스트모델 테스트",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/9"
+        },
+        {
+          "role": "a",
+          "text": "비활성eXemble 매뉴얼 eXemble 매뉴얼 요약",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/5"
+        },
+        {
+          "role": "a",
+          "text": "비활성MaxGauge알려줘",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/3"
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        },
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        }
+      ],
+      "rowText": "Ctrl+K A AI서비스 사용자가 사용할 AI서비스를 관리합니다. 서비스 생성 서비스 목록 전체 활성 사규 질의응답 사규 활성 GS인증 GS인증 비활성 모델 테스트 모델 테스트 비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약 비활성 MaxGauge 알려줘",
+      "rowControls": [
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/new"
+        },
+        {
+          "role": "button",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "combobox",
+          "text": "전체",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "활성사규 질의응답사규",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/4"
+        },
+        {
+          "role": "a",
+          "text": "활성GS인증GS인증",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/6"
+        },
+        {
+          "role": "a",
+          "text": "비활성모델 테스트모델 테스트",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/9"
+        },
+        {
+          "role": "a",
+          "text": "비활성eXemble 매뉴얼 eXemble 매뉴얼 요약",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/5"
+        },
+        {
+          "role": "a",
+          "text": "비활성MaxGauge알려줘",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/3"
+        }
+      ]
+    },
+    {
+      "name": "05_after_open",
+      "url": "https://10.10.34.114/ai-service/3",
+      "summary": "After opening MaxGauge detail",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\05_after_open.png",
+      "headings": [
+        "MaxGauge",
+        "서비스 정보",
+        "서비스 버전"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "대시보드",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "AI서비스",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "데이터",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "모델",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/model"
+        },
+        {
+          "role": "a",
+          "text": "도구",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/tool"
+        },
+        {
+          "role": "a",
+          "text": "로그",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/log"
+        },
+        {
+          "role": "button",
+          "text": "권한",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "삭제",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "편집",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/edit/3"
+        },
+        {
+          "role": "button",
+          "text": "편집",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "활성화",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "버전 배포",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "React Flow",
+          "ariaLabel": "React Flow attribution",
+          "title": "",
+          "href": "https://reactflow.dev"
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        },
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        }
+      ],
+      "mainTexts": [
+        "Ctrl+K A",
+        "Ctrl+K",
+        "A",
+        "MaxGauge 알려줘 삭제 편집 활성화 버전 배포 서비스 정보 활성 상태 비활성 접근 대상 접근 정책이 지정되지 않아 모든 사용자가 접근 가능합니다. 식별 설명 알려줘 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow 서비스 버전 버전 상태 등록자 등록일 v0 이용 가능 admin 2026-03-18 20:14:42",
+        "MaxGauge 알려줘 삭제 편집 활성화 버전 배포",
+        "MaxGauge 알려줘",
+        "MaxGauge",
+        "알려줘",
+        "삭제 편집 활성화 버전 배포",
+        "삭제",
+        "편집",
+        "활성화",
+        "버전 배포",
+        "서비스 정보 활성 상태 비활성 접근 대상 접근 정책이 지정되지 않아 모든 사용자가 접근 가능합니다. 식별 설명 알려줘",
+        "서비스 정보",
+        "활성 상태 비활성 접근 대상 접근 정책이 지정되지 않아 모든 사용자가 접근 가능합니다. 식별 설명 알려줘",
+        "활성 상태 비활성",
+        "활성 상태",
+        "비활성",
+        "접근 대상 접근 정책이 지정되지 않아 모든 사용자가 접근 가능합니다.",
+        "접근 대상",
+        "접근 정책이 지정되지 않아 모든 사용자가 접근 가능합니다.",
+        "식별 설명 알려줘",
+        "식별 설명",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow 서비스 버전 버전 상태 등록자 등록일 v0 이용 가능 admin 2026-03-18 20:14:42",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "시작",
+        "일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "일반",
+        "설명, 요약 담당 에이전트",
+        "설명 & 요약한다.",
+        "100%",
+        "React Flow",
+        "서비스 버전 버전 상태 등록자 등록일 v0 이용 가능 admin 2026-03-18 20:14:42",
+        "서비스 버전",
+        "버전 상태 등록자 등록일 v0 이용 가능 admin 2026-03-18 20:14:42",
+        "버전 상태 등록자 등록일",
+        "버전",
+        "상태",
+        "등록자",
+        "등록일",
+        "v0 이용 가능 admin 2026-03-18 20:14:42",
+        "v0",
+        "이용 가능",
+        "admin",
+        "2026-03-18 20:14:42"
+      ]
+    },
+    {
+      "name": "06_after_edit_open",
+      "url": "https://10.10.34.114/ai-service/edit/3",
+      "summary": "After opening edit surface",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\06_after_edit_open.png",
+      "headings": [
+        "서비스 편집",
+        "서비스 정보"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "대시보드",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "AI서비스",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "데이터",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "모델",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/model"
+        },
+        {
+          "role": "a",
+          "text": "도구",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/tool"
+        },
+        {
+          "role": "a",
+          "text": "로그",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/log"
+        },
+        {
+          "role": "button",
+          "text": "권한",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "취소",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "저장",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "tab",
+          "text": "서비스 구성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "tab",
+          "text": "테스트 채팅",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "React Flow",
+          "ariaLabel": "React Flow attribution",
+          "title": "",
+          "href": "https://reactflow.dev"
+        },
+        {
+          "role": "combobox",
+          "text": "v0",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        },
+        {
+          "name": "",
+          "placeholder": "서비스의 이름을 입력해 주세요.",
+          "value": "MaxGauge"
+        },
+        {
+          "name": "",
+          "placeholder": "서비스의 주요 기능 또는 사용 목적을 간단히 설명해 주세요.",
+          "value": "maxgauge 설명 해주는 봇"
+        },
+        {
+          "name": "",
+          "placeholder": "라우터가 분기 기준으로 사용할 키워드나 기능 중심 설명을 입력해 주세요.",
+          "value": "알려줘"
+        }
+      ],
+      "mainTexts": [
+        "Ctrl+K A",
+        "Ctrl+K",
+        "A",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow v0",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장",
+        "서비스 편집 기존 AI서비스를 편집합니다.",
+        "서비스 편집",
+        "기존 AI서비스를 편집합니다.",
+        "취소 저장",
+        "취소",
+        "저장",
+        "서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요",
+        "서비스 구성 테스트 채팅",
+        "서비스 구성",
+        "테스트 채팅",
+        "서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요",
+        "서비스 정보 아이콘 및 이름",
+        "서비스 정보",
+        "아이콘 및 이름",
+        "사용자 설명 17/100",
+        "사용자 설명",
+        "17/100",
+        "식별 설명 3/100",
+        "식별 설명",
+        "3/100",
+        "접근 대상 접근 대상을 선택하세요",
+        "접근 대상",
+        "접근 대상을 선택하세요",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "시작",
+        "일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "일반",
+        "설명, 요약 담당 에이전트",
+        "설명 & 요약한다.",
+        "100%",
+        "React Flow",
+        "v0"
+      ],
+      "nameInputContainerHtml": "<div class=\"flex w-full flex-row items-center rounded-medium border transition-colors focus-within:border-border-focused focus-within:outline-none h-8 gap-0.5 px-2 text-text-primary border-transparent bg-elevation-elevation-2\"><div class=\"flex flex-1 flex-row items-center justify-center\"><input id=\"text-field-«rs»\" class=\"w-full border-none bg-transparent p-0 focus:outline-none focus:ring-0 disabled:cursor-not-allowed text-body-2 placeholder:text-body-2 text-text-primary placeholder:text-text-tertiary\" placeholder=\"서비스의 이름을 입력해 주세요.\" name=\"name\"></div></div>",
+      "nearbyButtonHtml": "",
+      "mainButtons": [
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 220,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"m12.53 5.53-5.72 5.719H20v1.5H6.81l5.72 5.72-1.06 1.06-7-7a.75.75 0 0 1 0-1.06l7-7z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 256,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"m11.47 5.53 5.72 5.72H4v1.5h13.19l-5.72 5.72 1.06 1.06 7-7a.75.75 0 0 0 0-1.06l-7-7z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1352,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent size-8 px-0 hover:bg-elevation-elevation-2 group/button\"><svg width=\"20\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"M4.5 18.788v-1.5h1.808v-7.46q0-2.017 1.245-3.567a5.52 5.52 0 0 1 3.197-1.983v-.623q0-.52.364-.886.364-.364.885-.364c.521 0 .642.121.885.364q.366.366.366.886v.623a5.52 5.52 0 0 1 3.197 1.983q1.245 1.55 1.245 3.567v7.462H19.5v1.5h-15Zm7.498 2.808a1.74 1.74 0 0 1-1.276-.53 1.74 1.74 0 0 1-.53-1.278h3.616q0 .75-.532 1.278-.531.53-1.278.53m-4.19-4.307h8.384V9.827q0-1.737-1.228-2.964Q13.737 5.635 12 5.635c-1.737 0-2.146.409-2.964 1.228Q7.808 8.09 7.808 9.827z\"></path></svg></button>"
+        },
+        {
+          "text": "취소",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1301,
+          "y": 65,
+          "width": 44,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex w-fit shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed h-8 gap-0.5 px-2 text-body-2 font-medium bg-elevation-elevation-2 hover:bg-elevation-elevation-3 disabled:bg-elevation-elevation-2 group/button\"><span class=\"truncate px-0.5 text-text-secondary group-disabled/button:text-text-disabled\">취소</span></button>"
+        },
+        {
+          "text": "저장",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1353,
+          "y": 65,
+          "width": 62,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex w-fit shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed h-8 gap-0.5 px-2 text-body-2 font-medium bg-surface-primary-default hover:bg-surface-primary-hovered disabled:bg-surface-primary-disabled group/button\" disabled=\"\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-inverse group-disabled/button:text-icon-inverse h-4 w-4\"><path fill=\"currentColor\" d=\"m19.968 7.218-9.888 9.887a.75.75 0 0 1-1.06 0l-4.988-4.987 1.06-1.06 4.458 4.457 9.357-9.358z\"></path></svg><span class=\"truncate px-0.5 text-text-inverse group-disabled/button:text-text-inverse\">저장</span></button>"
+        },
+        {
+          "text": "서비스 구성",
+          "ariaLabel": "",
+          "title": "",
+          "x": 237,
+          "y": 124,
+          "width": 80,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-«rn»-content-default\" data-state=\"active\" id=\"radix-«rn»-trigger-default\" class=\"group inline-flex items-center justify-center gap-1.5 whitespace-nowrap font-pretendard font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 rounded-medium px-2 text-text-tertiary hover:text-text-primary data-[state=active]:bg-elevation-elevation-2 data-[state=active]:text-text-primary h-8 text-body-2\" tabindex=\"-1\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"><span class=\"flex items-center gap-1\">서비스 구성</span></button>"
+        },
+        {
+          "text": "테스트 채팅",
+          "ariaLabel": "",
+          "title": "",
+          "x": 321,
+          "y": 124,
+          "width": 80,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"radix-«rn»-content-chat\" data-state=\"inactive\" id=\"radix-«rn»-trigger-chat\" class=\"group inline-flex items-center justify-center gap-1.5 whitespace-nowrap font-pretendard font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 rounded-medium px-2 text-text-tertiary hover:text-text-primary data-[state=active]:bg-elevation-elevation-2 data-[state=active]:text-text-primary h-8 text-body-2\" tabindex=\"-1\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"><span class=\"flex items-center gap-1\">테스트 채팅</span></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 237,
+          "y": 230,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-2 hover:bg-elevation-elevation-3 disabled:bg-elevation-elevation-2 size-8 px-0 group/button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-«rr»\" data-state=\"closed\" data-slot=\"popover-trigger\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M5 21q-.824 0-1.413-.587A1.93 1.93 0 0 1 3 19V5q0-.824.587-1.413A1.93 1.93 0 0 1 5 3h4.2a3 3 0 0 1 1.088-1.45A2.86 2.86 0 0 1 12 1q.95 0 1.713.55.762.55 1.087 1.45H19q.824 0 1.413.587.586.589.587 1.413v14q0 .824-.587 1.413A1.93 1.93 0 0 1 19 21zm0-2h14V5H5zm2-2h7v-2H7zm0-4h10v-2H7zm0-4h10V7H7zm5-4.75a.73.73 0 0 0 .75-.75.73.73 0 0 0-.75-.75.73.73 0 0 0-.75.75.73.73 0 0 0 .75.75\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1261,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none rounded-l-medium border-r border-border-subtle group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M19 13H5v-2h14z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1293,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none border-r border-border-subtle group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1325,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none rounded-r-medium group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path d=\"M13.3335 5.99984V3.99984H11.3335V2.6665H13.3335C13.7002 2.6665 14.0141 2.79706 14.2752 3.05817C14.5363 3.31928 14.6668 3.63317 14.6668 3.99984V5.99984H13.3335ZM1.3335 5.99984V3.99984C1.3335 3.63317 1.46405 3.31928 1.72516 3.05817C1.98627 2.79706 2.30016 2.6665 2.66683 2.6665H4.66683V3.99984H2.66683V5.99984H1.3335ZM11.3335 13.3332V11.9998H13.3335V9.99984H14.6668V11.9998C14.6668 12.3665 14.5363 12.6804 14.2752 12.9415C14.0141 13.2026 13.7002 13.3332 13.3335 13.3332H11.3335ZM2.66683 13.3332C2.30016 13.3332 1.98627 13.2026 1.72516 12.9415C1.46405 12.6804 1.3335 12.3665 1.3335 11.9998V9.99984H2.66683V11.9998H4.66683V13.3332H2.66683ZM4.00016 10.6665V5.33317H12.0002V10.6665H4.00016ZM5.3335 9.33317H10.6668V6.6665H5.3335V9.33317Z\" fill=\"currentColor\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1366,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 border group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path d=\"M10.0002 13.3332V11.9998H7.3335V8.6665H6.00016V9.99984H1.3335V5.99984H6.00016V7.33317H7.3335V3.99984H10.0002V2.6665H14.6668V6.6665H10.0002V5.33317H8.66683V10.6665H10.0002V9.33317H14.6668V13.3332H10.0002ZM11.3335 11.9998H13.3335V10.6665H11.3335V11.9998ZM2.66683 8.6665H4.66683V7.33317H2.66683V8.6665ZM11.3335 5.33317H13.3335V3.99984H11.3335V5.33317Z\" fill=\"currentColor\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 918,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M11.25 19.57v-7.14L5 8.812v6.966q0 .077.038.144a.33.33 0 0 0 .116.116zm1.5 0 6.096-3.533a.33.33 0 0 0 .116-.116.3.3 0 0 0 .038-.144V8.811l-6.25 3.62zM12 11.138l6.175-3.57-6.021-3.483A.3.3 0 0 0 12 4.038a.3.3 0 0 0-.154.048L5.825 7.57zm-7.596 6.215a1.78 1.78 0 0 1-.904-1.562V8.208a1.77 1.77 0 0 1 .904-1.562l6.692-3.852a1.78 1.78 0 0 1 1.808 0l6.692 3.852a1.78 1.78 0 0 1 .904 1.562v7.584a1.77 1.77 0 0 1-.904 1.562l-6.692 3.852a1.78 1.78 0 0 1-1.808 0z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 962,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M7.596 6.497V5.42q0-.62.44-1.06a1.45 1.45 0 0 1 1.06-.44h5.808q.618 0 1.06.44.44.44.44 1.06v1.077H17.7a1.45 1.45 0 0 1 1.339.892l2.292 5.227a2.3 2.3 0 0 1 .169.854v4.527q0 .618-.44 1.059t-1.06.44H4q-.62 0-1.06-.44a1.44 1.44 0 0 1-.44-1.06v-4.522a2.2 2.2 0 0 1 .17-.858l2.292-5.227q.167-.4.53-.646a1.4 1.4 0 0 1 .808-.246zm1.5 0h5.808V5.42H9.096zM7.25 12.343v-1h1.5v1h6.5v-1h1.5v1h2.823L17.7 7.997H6.3l-1.873 4.346zm0 1.5H4v4.154h16v-4.154h-3.25v1h-1.5v-1h-6.5v1h-1.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1006,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M4.5 12.75v-1.5h7.196L16.946 6H14V4.5h4.75a.75.75 0 0 1 .75.75V10H18V7.054l-5.477 5.476a.75.75 0 0 1-.53.22zM14 19.5V18h2.946l-3.527-3.496 1.085-1.085L18 16.946V14h1.5v4.75a.75.75 0 0 1-.75.75z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1055,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M7.202 18.5V17h7.177q1.565 0 2.694-1.034t1.129-2.552-1.13-2.549-2.693-1.029H7.358l2.782 2.783-1.054 1.054L5.03 9.617a.75.75 0 0 1 0-1.06L9.086 4.5l1.054 1.054-2.782 2.782h7.02q2.194 0 3.76 1.465 1.564 1.464 1.564 3.613 0 2.147-1.565 3.617T14.38 18.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1099,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\" style=\"transform: rotateY(180deg);\"><path fill=\"currentColor\" d=\"M7.202 18.5V17h7.177q1.565 0 2.694-1.034t1.129-2.552-1.13-2.549-2.693-1.029H7.358l2.782 2.783-1.054 1.054L5.03 9.617a.75.75 0 0 1 0-1.06L9.086 4.5l1.054 1.054-2.782 2.782h7.02q2.194 0 3.76 1.465 1.564 1.464 1.564 3.613 0 2.147-1.565 3.617T14.38 18.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1143,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M12.03 20.5q3.248 0 5.661-2.139Q20.106 16.224 20.47 13h-1.53q-.38 2.59-2.332 4.295Q14.655 19 12.03 19q-2.925 0-4.963-2.038Q5.03 14.926 5.03 12t2.037-4.962T12.03 5q1.638 0 3.07.728a7.6 7.6 0 0 1 2.468 2.003h-2.615v1.5h4.327a.75.75 0 0 0 .75-.75V4.154h-1.5v2.369a8.5 8.5 0 0 0-2.916-2.23A8.4 8.4 0 0 0 12.03 3.5q-1.77 0-3.316.67a8.6 8.6 0 0 0-2.696 1.819A8.6 8.6 0 0 0 4.2 8.685 8.3 8.3 0 0 0 3.529 12q0 1.77.67 3.315a8.6 8.6 0 0 0 1.82 2.697 8.6 8.6 0 0 0 2.695 1.819q1.546.669 3.316.669\"></path></svg></button>"
+        },
+        {
+          "text": "v0",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1279,
+          "y": 145,
+          "width": 120,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"combobox\" aria-controls=\"radix-«r1c»\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" id=\"select-«r1b»\" class=\"group flex items-center justify-between rounded-medium disabled:cursor-not-allowed disabled:bg-elevation-elevation-2 disabled:text-text-disabled data-[state=open]:border data-[state=open]:border-border-focused [&amp;&gt;span]:line-clamp-1 [&amp;[data-placeholder]]:text-text-tertiary [&amp;_svg]:text-icon-primary h-8 px-[8px] text-body-2 border-border-primary border select-trigger w-full\"><div class=\"flex w-full items-center gap-[2px]\"><div class=\"min-w-0 flex-1 truncate text-left\"><span style=\"pointer-events: none;\"><div class=\"truncate flex items-center flex-1 min-w-0 h-8\"><span class=\"truncate block flex-1\">v0</span></div></span></div><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 size-4 transition-transform duration-200 group-data-[state=open]:rotate-180 group-disabled:text-icon-disabled\"><path fill=\"currentColor\" d=\"m19.207 9.207-6.5 6.5a1 1 0 0 1-1.414 0l-6.5-6.5 1.414-1.414L12 13.586l5.793-5.793z\"></path></svg></div></button>"
+        }
+      ]
+    },
+    {
+      "name": "07_after_icon_trigger",
+      "url": "https://10.10.34.114/ai-service/edit/3",
+      "summary": "After clicking the icon trigger",
+      "screenshot": "_workspace\\diagnostics\\ai-service-mutation\\07_after_icon_trigger.png",
+      "headings": [
+        "서비스 편집",
+        "서비스 정보"
+      ],
+      "controls": [
+        {
+          "role": "a",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "대시보드",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/"
+        },
+        {
+          "role": "button",
+          "text": "AI서비스",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "데이터",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "모델",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/model"
+        },
+        {
+          "role": "a",
+          "text": "도구",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/tool"
+        },
+        {
+          "role": "a",
+          "text": "로그",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/log"
+        },
+        {
+          "role": "button",
+          "text": "권한",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "취소",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "저장",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "tab",
+          "text": "서비스 구성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "tab",
+          "text": "테스트 채팅",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "React Flow",
+          "ariaLabel": "React Flow attribution",
+          "title": "",
+          "href": "https://reactflow.dev"
+        },
+        {
+          "role": "combobox",
+          "text": "v0",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        }
+      ],
+      "textboxes": [
+        {
+          "name": "",
+          "placeholder": "검색어를 입력하세요",
+          "value": ""
+        },
+        {
+          "name": "",
+          "placeholder": "서비스의 이름을 입력해 주세요.",
+          "value": "MaxGauge"
+        },
+        {
+          "name": "",
+          "placeholder": "서비스의 주요 기능 또는 사용 목적을 간단히 설명해 주세요.",
+          "value": "maxgauge 설명 해주는 봇"
+        },
+        {
+          "name": "",
+          "placeholder": "라우터가 분기 기준으로 사용할 키워드나 기능 중심 설명을 입력해 주세요.",
+          "value": "알려줘"
+        }
+      ],
+      "mainTexts": [
+        "대시보드 AI서비스 데이터 모델 도구 로그 권한 Ctrl+K A 서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow v0",
+        "대시보드 AI서비스 데이터 모델 도구 로그 권한",
+        "대시보드",
+        "AI서비스",
+        "데이터",
+        "모델",
+        "도구",
+        "로그",
+        "권한",
+        "Ctrl+K A 서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow v0",
+        "Ctrl+K A",
+        "Ctrl+K",
+        "A",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow v0",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장 서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "서비스 편집 기존 AI서비스를 편집합니다. 취소 저장",
+        "서비스 편집 기존 AI서비스를 편집합니다.",
+        "서비스 편집",
+        "기존 AI서비스를 편집합니다.",
+        "취소 저장",
+        "취소",
+        "저장",
+        "서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요 시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "서비스 구성 테스트 채팅 서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요",
+        "서비스 구성 테스트 채팅",
+        "서비스 구성",
+        "테스트 채팅",
+        "서비스 정보 아이콘 및 이름 사용자 설명 17/100 식별 설명 3/100 접근 대상 접근 대상을 선택하세요",
+        "서비스 정보 아이콘 및 이름",
+        "서비스 정보",
+        "아이콘 및 이름",
+        "사용자 설명 17/100",
+        "사용자 설명",
+        "17/100",
+        "식별 설명 3/100",
+        "식별 설명",
+        "3/100",
+        "접근 대상 접근 대상을 선택하세요",
+        "접근 대상",
+        "접근 대상을 선택하세요",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다. 100% React Flow",
+        "시작 일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "시작",
+        "일반 설명, 요약 담당 에이전트 설명 & 요약한다.",
+        "일반",
+        "설명, 요약 담당 에이전트",
+        "설명 & 요약한다.",
+        "100%",
+        "React Flow",
+        "v0"
+      ],
+      "mainButtons": [
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 220,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"m12.53 5.53-5.72 5.719H20v1.5H6.81l5.72 5.72-1.06 1.06-7-7a.75.75 0 0 1 0-1.06l7-7z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 256,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"m11.47 5.53 5.72 5.72H4v1.5h13.19l-5.72 5.72 1.06 1.06 7-7a.75.75 0 0 0 0-1.06l-7-7z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1352,
+          "y": 8,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent size-8 px-0 hover:bg-elevation-elevation-2 group/button\"><svg width=\"20\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled !size-5 h-4 w-4\"><path fill=\"currentColor\" d=\"M4.5 18.788v-1.5h1.808v-7.46q0-2.017 1.245-3.567a5.52 5.52 0 0 1 3.197-1.983v-.623q0-.52.364-.886.364-.364.885-.364c.521 0 .642.121.885.364q.366.366.366.886v.623a5.52 5.52 0 0 1 3.197 1.983q1.245 1.55 1.245 3.567v7.462H19.5v1.5h-15Zm7.498 2.808a1.74 1.74 0 0 1-1.276-.53 1.74 1.74 0 0 1-.53-1.278h3.616q0 .75-.532 1.278-.531.53-1.278.53m-4.19-4.307h8.384V9.827q0-1.737-1.228-2.964Q13.737 5.635 12 5.635c-1.737 0-2.146.409-2.964 1.228Q7.808 8.09 7.808 9.827z\"></path></svg></button>"
+        },
+        {
+          "text": "취소",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1301,
+          "y": 65,
+          "width": 44,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex w-fit shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed h-8 gap-0.5 px-2 text-body-2 font-medium bg-elevation-elevation-2 hover:bg-elevation-elevation-3 disabled:bg-elevation-elevation-2 group/button\"><span class=\"truncate px-0.5 text-text-secondary group-disabled/button:text-text-disabled\">취소</span></button>"
+        },
+        {
+          "text": "저장",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1353,
+          "y": 65,
+          "width": 62,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex w-fit shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed h-8 gap-0.5 px-2 text-body-2 font-medium bg-surface-primary-default hover:bg-surface-primary-hovered disabled:bg-surface-primary-disabled group/button\" disabled=\"\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-inverse group-disabled/button:text-icon-inverse h-4 w-4\"><path fill=\"currentColor\" d=\"m19.968 7.218-9.888 9.887a.75.75 0 0 1-1.06 0l-4.988-4.987 1.06-1.06 4.458 4.457 9.357-9.358z\"></path></svg><span class=\"truncate px-0.5 text-text-inverse group-disabled/button:text-text-inverse\">저장</span></button>"
+        },
+        {
+          "text": "서비스 구성",
+          "ariaLabel": "",
+          "title": "",
+          "x": 237,
+          "y": 124,
+          "width": 80,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-«rn»-content-default\" data-state=\"active\" id=\"radix-«rn»-trigger-default\" class=\"group inline-flex items-center justify-center gap-1.5 whitespace-nowrap font-pretendard font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 rounded-medium px-2 text-text-tertiary hover:text-text-primary data-[state=active]:bg-elevation-elevation-2 data-[state=active]:text-text-primary h-8 text-body-2\" tabindex=\"-1\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"><span class=\"flex items-center gap-1\">서비스 구성</span></button>"
+        },
+        {
+          "text": "테스트 채팅",
+          "ariaLabel": "",
+          "title": "",
+          "x": 321,
+          "y": 124,
+          "width": 80,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"radix-«rn»-content-chat\" data-state=\"inactive\" id=\"radix-«rn»-trigger-chat\" class=\"group inline-flex items-center justify-center gap-1.5 whitespace-nowrap font-pretendard font-semibold transition-all disabled:pointer-events-none disabled:opacity-50 rounded-medium px-2 text-text-tertiary hover:text-text-primary data-[state=active]:bg-elevation-elevation-2 data-[state=active]:text-text-primary h-8 text-body-2\" tabindex=\"-1\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"><span class=\"flex items-center gap-1\">테스트 채팅</span></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 237,
+          "y": 230,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-2 hover:bg-elevation-elevation-3 disabled:bg-elevation-elevation-2 size-8 px-0 group/button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"true\" aria-controls=\"radix-«rr»\" data-state=\"open\" data-slot=\"popover-trigger\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M5 21q-.824 0-1.413-.587A1.93 1.93 0 0 1 3 19V5q0-.824.587-1.413A1.93 1.93 0 0 1 5 3h4.2a3 3 0 0 1 1.088-1.45A2.86 2.86 0 0 1 12 1q.95 0 1.713.55.762.55 1.087 1.45H19q.824 0 1.413.587.586.589.587 1.413v14q0 .824-.587 1.413A1.93 1.93 0 0 1 19 21zm0-2h14V5H5zm2-2h7v-2H7zm0-4h10v-2H7zm0-4h10V7H7zm5-4.75a.73.73 0 0 0 .75-.75.73.73 0 0 0-.75-.75.73.73 0 0 0-.75.75.73.73 0 0 0 .75.75\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1261,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none rounded-l-medium border-r border-border-subtle group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M19 13H5v-2h14z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1293,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none border-r border-border-subtle group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path fill=\"currentColor\" d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1325,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-elevation-elevation-0 hover:bg-elevation-elevation-2 disabled:bg-elevation-elevation-2 size-8 px-0 rounded-none rounded-r-medium group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path d=\"M13.3335 5.99984V3.99984H11.3335V2.6665H13.3335C13.7002 2.6665 14.0141 2.79706 14.2752 3.05817C14.5363 3.31928 14.6668 3.63317 14.6668 3.99984V5.99984H13.3335ZM1.3335 5.99984V3.99984C1.3335 3.63317 1.46405 3.31928 1.72516 3.05817C1.98627 2.79706 2.30016 2.6665 2.66683 2.6665H4.66683V3.99984H2.66683V5.99984H1.3335ZM11.3335 13.3332V11.9998H13.3335V9.99984H14.6668V11.9998C14.6668 12.3665 14.5363 12.6804 14.2752 12.9415C14.0141 13.2026 13.7002 13.3332 13.3335 13.3332H11.3335ZM2.66683 13.3332C2.30016 13.3332 1.98627 13.2026 1.72516 12.9415C1.46405 12.6804 1.3335 12.3665 1.3335 11.9998V9.99984H2.66683V11.9998H4.66683V13.3332H2.66683ZM4.00016 10.6665V5.33317H12.0002V10.6665H4.00016ZM5.3335 9.33317H10.6668V6.6665H5.3335V9.33317Z\" fill=\"currentColor\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1366,
+          "y": 926,
+          "width": 32,
+          "height": 32,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-0.5 text-body-2 font-medium bg-transparent hover:bg-elevation-layered size-8 px-0 border group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-4 w-4\"><path d=\"M10.0002 13.3332V11.9998H7.3335V8.6665H6.00016V9.99984H1.3335V5.99984H6.00016V7.33317H7.3335V3.99984H10.0002V2.6665H14.6668V6.6665H10.0002V5.33317H8.66683V10.6665H10.0002V9.33317H14.6668V13.3332H10.0002ZM11.3335 11.9998H13.3335V10.6665H11.3335V11.9998ZM2.66683 8.6665H4.66683V7.33317H2.66683V8.6665ZM11.3335 5.33317H13.3335V3.99984H11.3335V5.33317Z\" fill=\"currentColor\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 918,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M11.25 19.57v-7.14L5 8.812v6.966q0 .077.038.144a.33.33 0 0 0 .116.116zm1.5 0 6.096-3.533a.33.33 0 0 0 .116-.116.3.3 0 0 0 .038-.144V8.811l-6.25 3.62zM12 11.138l6.175-3.57-6.021-3.483A.3.3 0 0 0 12 4.038a.3.3 0 0 0-.154.048L5.825 7.57zm-7.596 6.215a1.78 1.78 0 0 1-.904-1.562V8.208a1.77 1.77 0 0 1 .904-1.562l6.692-3.852a1.78 1.78 0 0 1 1.808 0l6.692 3.852a1.78 1.78 0 0 1 .904 1.562v7.584a1.77 1.77 0 0 1-.904 1.562l-6.692 3.852a1.78 1.78 0 0 1-1.808 0z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 962,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M7.596 6.497V5.42q0-.62.44-1.06a1.45 1.45 0 0 1 1.06-.44h5.808q.618 0 1.06.44.44.44.44 1.06v1.077H17.7a1.45 1.45 0 0 1 1.339.892l2.292 5.227a2.3 2.3 0 0 1 .169.854v4.527q0 .618-.44 1.059t-1.06.44H4q-.62 0-1.06-.44a1.44 1.44 0 0 1-.44-1.06v-4.522a2.2 2.2 0 0 1 .17-.858l2.292-5.227q.167-.4.53-.646a1.4 1.4 0 0 1 .808-.246zm1.5 0h5.808V5.42H9.096zM7.25 12.343v-1h1.5v1h6.5v-1h1.5v1h2.823L17.7 7.997H6.3l-1.873 4.346zm0 1.5H4v4.154h16v-4.154h-3.25v1h-1.5v-1h-6.5v1h-1.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1006,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M4.5 12.75v-1.5h7.196L16.946 6H14V4.5h4.75a.75.75 0 0 1 .75.75V10H18V7.054l-5.477 5.476a.75.75 0 0 1-.53.22zM14 19.5V18h2.946l-3.527-3.496 1.085-1.085L18 16.946V14h1.5v4.75a.75.75 0 0 1-.75.75z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1055,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M7.202 18.5V17h7.177q1.565 0 2.694-1.034t1.129-2.552-1.13-2.549-2.693-1.029H7.358l2.782 2.783-1.054 1.054L5.03 9.617a.75.75 0 0 1 0-1.06L9.086 4.5l1.054 1.054-2.782 2.782h7.02q2.194 0 3.76 1.465 1.564 1.464 1.564 3.613 0 2.147-1.565 3.617T14.38 18.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1099,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" disabled=\"\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\" style=\"transform: rotateY(180deg);\"><path fill=\"currentColor\" d=\"M7.202 18.5V17h7.177q1.565 0 2.694-1.034t1.129-2.552-1.13-2.549-2.693-1.029H7.358l2.782 2.783-1.054 1.054L5.03 9.617a.75.75 0 0 1 0-1.06L9.086 4.5l1.054 1.054-2.782 2.782h7.02q2.194 0 3.76 1.465 1.564 1.464 1.564 3.613 0 2.147-1.565 3.617T14.38 18.5z\"></path></svg></button>"
+        },
+        {
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1143,
+          "y": 914,
+          "width": 40,
+          "height": 40,
+          "outerHTML": "<button class=\"inline-flex shrink-0 flex-row items-center justify-center rounded-medium transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:cursor-not-allowed gap-1 text-body-1 font-medium bg-transparent hover:bg-elevation-layered size-10 px-0 group/button\" data-state=\"closed\"><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 [&amp;&gt;path]:fill-current text-icon-secondary group-disabled/button:text-icon-disabled h-5 w-5\"><path fill=\"currentColor\" d=\"M12.03 20.5q3.248 0 5.661-2.139Q20.106 16.224 20.47 13h-1.53q-.38 2.59-2.332 4.295Q14.655 19 12.03 19q-2.925 0-4.963-2.038Q5.03 14.926 5.03 12t2.037-4.962T12.03 5q1.638 0 3.07.728a7.6 7.6 0 0 1 2.468 2.003h-2.615v1.5h4.327a.75.75 0 0 0 .75-.75V4.154h-1.5v2.369a8.5 8.5 0 0 0-2.916-2.23A8.4 8.4 0 0 0 12.03 3.5q-1.77 0-3.316.67a8.6 8.6 0 0 0-2.696 1.819A8.6 8.6 0 0 0 4.2 8.685 8.3 8.3 0 0 0 3.529 12q0 1.77.67 3.315a8.6 8.6 0 0 0 1.82 2.697 8.6 8.6 0 0 0 2.695 1.819q1.546.669 3.316.669\"></path></svg></button>"
+        },
+        {
+          "text": "v0",
+          "ariaLabel": "",
+          "title": "",
+          "x": 1279,
+          "y": 145,
+          "width": 120,
+          "height": 32,
+          "outerHTML": "<button type=\"button\" role=\"combobox\" aria-controls=\"radix-«r1c»\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" id=\"select-«r1b»\" class=\"group flex items-center justify-between rounded-medium disabled:cursor-not-allowed disabled:bg-elevation-elevation-2 disabled:text-text-disabled data-[state=open]:border data-[state=open]:border-border-focused [&amp;&gt;span]:line-clamp-1 [&amp;[data-placeholder]]:text-text-tertiary [&amp;_svg]:text-icon-primary h-8 px-[8px] text-body-2 border-border-primary border select-trigger w-full\"><div class=\"flex w-full items-center gap-[2px]\"><div class=\"min-w-0 flex-1 truncate text-left\"><span style=\"pointer-events: none;\"><div class=\"truncate flex items-center flex-1 min-w-0 h-8\"><span class=\"truncate block flex-1\">v0</span></div></span></div><svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" role=\"img\" class=\"shrink-0 size-4 transition-transform duration-200 group-data-[state=open]:rotate-180 group-disabled:text-icon-disabled\"><path fill=\"currentColor\" d=\"m19.207 9.207-6.5 6.5a1 1 0 0 1-1.414 0l-6.5-6.5 1.414-1.414L12 13.586l5.793-5.793z\"></path></svg></div></button>"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "maxGaugeVisible": true,
+    "maxGaugeRow": {
+      "rowText": "Ctrl+K A AI서비스 사용자가 사용할 AI서비스를 관리합니다. 서비스 생성 서비스 목록 전체 활성 사규 질의응답 사규 활성 GS인증 GS인증 비활성 모델 테스트 모델 테스트 비활성 eXemble 매뉴얼 eXemble 매뉴얼 요약 비활성 MaxGauge 알려줘",
+      "rowControls": [
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "button",
+          "text": "",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/new"
+        },
+        {
+          "role": "button",
+          "text": "서비스 생성",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "combobox",
+          "text": "전체",
+          "ariaLabel": "",
+          "title": "",
+          "href": ""
+        },
+        {
+          "role": "a",
+          "text": "활성사규 질의응답사규",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/4"
+        },
+        {
+          "role": "a",
+          "text": "활성GS인증GS인증",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/6"
+        },
+        {
+          "role": "a",
+          "text": "비활성모델 테스트모델 테스트",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/9"
+        },
+        {
+          "role": "a",
+          "text": "비활성eXemble 매뉴얼 eXemble 매뉴얼 요약",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/5"
+        },
+        {
+          "role": "a",
+          "text": "비활성MaxGauge알려줘",
+          "ariaLabel": "",
+          "title": "",
+          "href": "/ai-service/3"
+        }
+      ]
+    }
+  }
+}

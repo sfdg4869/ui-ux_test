@@ -1,0 +1,118 @@
+{
+  "_comment": "Non-secret fixed chat questions and expected results for user-query automation.",
+  "cases": [
+    {
+      "caseId": "eXemble_사용자 질의_004",
+      "title": "권한별 대표 서비스 확인",
+      "serviceName": "GS인증",
+      "question": "",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [
+          "GS인증"
+        ],
+        "mustNotContainAny": [],
+        "attachmentRequired": false,
+        "attachmentFileNames": [],
+        "evidenceRequired": false,
+        "evidenceLabels": [],
+        "detailOpenRequired": false,
+        "fallbackMessage": ""
+      }
+    },
+    {
+      "caseId": "eXemble_사용자 질의_006",
+      "title": "첨부문서 확인",
+      "serviceName": "GS인증",
+      "question": "안녕하세요 입사 시 제공되는 혜택에는 무엇이 있나요",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [
+          "입사 시 제공되는 혜택",
+          "근거 자료"
+        ],
+        "mustNotContainAny": [],
+        "attachmentRequired": true,
+        "attachmentFileNames": [],
+        "evidenceRequired": false,
+        "evidenceLabels": [],
+        "detailOpenRequired": false,
+        "fallbackMessage": ""
+      }
+    },
+    {
+      "caseId": "eXemble_사용자 질의_007",
+      "title": "답변 및 요약 확인",
+      "serviceName": "",
+      "question": "사규에 대해 정리해주세요(자동화 테스트)",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [],
+        "mustNotContainAny": [],
+        "attachmentRequired": false,
+        "attachmentFileNames": [],
+        "evidenceRequired": false,
+        "evidenceLabels": [],
+        "detailOpenRequired": false,
+        "fallbackMessage": ""
+      }
+    },
+    {
+      "caseId": "eXemble_사용자 질의_008",
+      "title": "근거 자료 확인",
+      "serviceName": "GS인증",
+      "question": "안녕하세요 입사 시 제공되는 혜택에는 무엇이 있나요",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [
+          "입사 시 제공되는 혜택",
+          "근거 자료"
+        ],
+        "mustNotContainAny": [],
+        "attachmentRequired": false,
+        "attachmentFileNames": [],
+        "evidenceRequired": true,
+        "evidenceLabels": [],
+        "detailOpenRequired": false,
+        "fallbackMessage": ""
+      }
+    },
+    {
+      "caseId": "eXemble_사용자 질의_009",
+      "title": "근거 파일 링크 클릭",
+      "serviceName": "GS인증",
+      "question": "안녕하세요 입사 시 제공되는 혜택에는 무엇이 있나요",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [
+          "입사 시 제공되는 혜택",
+          "근거 자료"
+        ],
+        "mustNotContainAny": [],
+        "attachmentRequired": false,
+        "attachmentFileNames": [],
+        "evidenceRequired": true,
+        "evidenceLabels": [],
+        "detailOpenRequired": true,
+        "fallbackMessage": ""
+      }
+    },
+    {
+      "caseId": "eXemble_사용자 질의_014",
+      "title": "정의되지 않은 질문",
+      "serviceName": "",
+      "question": "asdfgh qwerty 자동화용 정의되지 않은 질문입니다.",
+      "expected": {
+        "genericResponseOk": true,
+        "mustContainAny": [],
+        "mustNotContainAny": [],
+        "attachmentRequired": false,
+        "attachmentFileNames": [],
+        "evidenceRequired": false,
+        "evidenceLabels": [],
+        "detailOpenRequired": false,
+        "fallbackMessage": ""
+      }
+    }
+  ]
+}

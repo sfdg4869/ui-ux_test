@@ -1,0 +1,32 @@
+{
+  "_comment": "Non-secret policy rules and disposable account identifiers for security automation.",
+  "passwordPolicy": {
+    "caseId": "eXemble_보안_007",
+    "minLength": 8,
+    "maxLength": 20,
+    "requiredCharacterClasses": [
+      "letter",
+      "number",
+      "special"
+    ],
+    "forbiddenPatterns": [],
+    "forbiddenSamples": [
+      "password12",
+      "Pass12#"
+    ],
+    "allowedSamples": [
+      "Password12#"
+    ]
+  },
+  "disposableAccounts": [
+    {
+      "purpose": "password-policy-validation",
+      "username": "test@exem.com",
+      "displayName": "test@exem.com",
+      "role": "",
+      "organization": "",
+      "position": "",
+      "notes": "Dedicated mutation/security test account referenced by EXEMBLE_MUTATION_*."
+    }
+  ]
+}

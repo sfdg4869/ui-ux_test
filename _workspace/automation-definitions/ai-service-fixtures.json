@@ -1,0 +1,27 @@
+{
+  "_comment": "Non-secret AI service fixtures for icon and activation-state automation. MaxGauge is the disposable mutation target and should end inactive after the suite.",
+  "iconSelection": {
+    "caseId": "eXemble_AI서비스_037",
+    "serviceName": "MaxGauge",
+    "allowedIconLabels": [],
+    "selectionOnlyOk": false,
+    "saveRequired": true,
+    "expectedPreviewMarkers": []
+  },
+  "activationTargets": [
+    {
+      "caseId": "eXemble_AI서비스_053",
+      "serviceName": "MaxGauge",
+      "startState": "inactive",
+      "restoreState": "inactive",
+      "disposable": true
+    },
+    {
+      "caseId": "eXemble_AI서비스_054",
+      "serviceName": "MaxGauge",
+      "startState": "active",
+      "restoreState": "inactive",
+      "disposable": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "Non-secret safe tool execution fixtures. Keep secrets like auth tokens in .env, not here.",
+  "tools": [
+    {
+      "caseId": "eXemble_도구_010",
+      "useExistingRegisteredTool": true,
+      "registeredToolDisplayName": "test3",
+      "toolName": "",
+      "method": "POST",
+      "url": "",
+      "headers": {},
+      "payload": {},
+      "expected": {
+        "statusCode": 200,
+        "successIfAnyResponse": true,
+        "successMarkers": [],
+        "failureMarkers": []
+      }
+    }
+  ]
+}

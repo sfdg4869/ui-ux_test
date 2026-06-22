@@ -1,0 +1,27 @@
+{
+  "name": "exemble-playwright-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog:build": "node ./scripts/generate-catalog.mjs",
+    "input-range:build": "node ./scripts/generate-input-range-matrix.mjs && node ./scripts/generate-input-field-inventory.mjs && node ./scripts/generate-input-coverage-report.mjs",
+    "input-range:inventory": "node ./scripts/generate-input-field-inventory.mjs",
+    "test": "playwright test",
+    "test:tc": "node ./scripts/run-tc-catalog.mjs",
+    "test:planned-auto": "playwright test tests/regression/planned-readonly-expansion.regression.spec.ts tests/regression/planned-chat-dashboard-system.regression.spec.ts --project=regression",
+    "test:input-range": "playwright test tests/regression/input-range.regression.spec.ts tests/regression/input-search-limits.regression.spec.ts tests/regression/input-form-limits.regression.spec.ts tests/regression/input-upload-limits.regression.spec.ts tests/regression/input-upload-formats.regression.spec.ts --project=regression",
+    "test:smoke": "playwright test --project=smoke",
+    "test:ui-safe": "playwright test tests/smoke/ui-safe-controls.smoke.spec.ts --project=smoke",
+    "test:authz": "playwright test tests/regression/authorization.profiles.regression.spec.ts tests/regression/session-and-search.regression.spec.ts --project=regression",
+    "test:deep-readonly": "playwright test tests/regression/dashboard.monitoring.regression.spec.ts tests/regression/read-only-deep-dive.regression.spec.ts tests/regression/permission.readonly.regression.spec.ts tests/regression/theme.regression.spec.ts --project=regression",
+    "test:regression": "playwright test --project=regression",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  }
+}

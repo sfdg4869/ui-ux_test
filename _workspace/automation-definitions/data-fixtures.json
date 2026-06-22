@@ -1,0 +1,41 @@
+{
+  "_comment": "Non-secret data-module fixtures for database, schema, and vector-table automation.",
+  "databases": [
+    {
+      "name": "pgtest",
+      "lenientValidation": true,
+      "usedForCaseIds": [
+        "eXemble_데이터_019",
+        "eXemble_데이터_020",
+        "eXemble_데이터_021",
+        "eXemble_데이터_022"
+      ],
+      "expectedConnectionState": "성공",
+      "expectedStateLabels": [
+        "연결 상태",
+        "성공"
+      ],
+      "expectedBasicInfoLabels": [
+        "기본 정보",
+        "데이터베이스 제품",
+        "소유자"
+      ],
+      "expectedCatalogSamples": [],
+      "expectedSchemaSamples": [
+        "information_schema",
+        "pg_catalog",
+        "public"
+      ],
+      "vectorTables": [
+        {
+          "name": "",
+          "detailOpenOnly": true,
+          "expectedType": "",
+          "expectedPolicyMode": "",
+          "expectedFileCountMin": 0,
+          "expectedHistoryCountMin": 0
+        }
+      ]
+    }
+  ]
+}
